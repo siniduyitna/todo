@@ -1,7 +1,7 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/api/todos/(.*)", "destination": "backend/server.js" },
-    { "source": "/(.*)", "destination": "to-frontend/$1" }
+    { "source": "/api/(.*)", "destination": "backend/server.js" },
+    { "source": "/(.*)", "destination": "/$1" }
   ]
 }
