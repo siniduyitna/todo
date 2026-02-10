@@ -2,6 +2,6 @@
   "version": 2,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "backend/server.js" },
-    { "source": "/(.*)", "destination": "/$1" }
+    { "source": "/(.*)", "destination": "to-frontend/$1" }
   ]
 }
